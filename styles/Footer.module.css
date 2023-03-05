@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    gap : 3rem; 
+    margin-top : 14rem; 
+    align-items : center; 
+    justify-content : center; 
+    background: linear-gradient(1deg, rgba(255,237, 237,0.85) 0%, rgba(255,255,255,0) 6rem);
+}
+
+.container>span{
+    color: var(--themeRed);
+    font-weight: bold;
+}
+
+.social{
+    cursor: pointer;
+}
