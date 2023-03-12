@@ -63,18 +63,11 @@
     .container{
         display: flex;
         flex-direction: column;
-        gap:10rem
-        }
-    .table{
-        position: absolute;
     }
-    .tbody>tr>td{
-        font-size: 15px
-    }
-
-    .cart{
+    .details{
+        font-size: x-small;
         position: relative;
-        top:10rem
+        right:40px;
     }
 
 
