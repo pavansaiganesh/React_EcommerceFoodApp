@@ -28,23 +28,25 @@ const Header = () => {
             <li>Menu</li>
             <li>About</li>
         </ul>
-        <Link href='/cart'>
         <div className={css.rightSide}>
+        <Link href='/cart'>
             <div className={css.cart}>
                 <UilShoppingBag size={35} color="2E2E2E"/>
                 <div className={css.badge}>{items}</div>
             </div>
-        </div>
+        
         </Link>
 
         {Order && (
             <Link href={`/order/${Order}`}>
+
                 <div className={css.cart}>
                     <UilReceipt size={35} color="#2E2E2E" /> 
                     {Order != "" && <div className={css.badge}>1</div>}
                 </div>
             </Link>
         )}
+        </div>
 
     </div>
   )
