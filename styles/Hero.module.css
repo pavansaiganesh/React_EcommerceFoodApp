@@ -86,8 +86,8 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   position: absolute;
-  bottom: -6rem;
-  left: 14rem;
+  bottom: -1rem;
+  left: 15rem;
   width: max-content;
 }
 .Pizza > :nth-child(1) {
