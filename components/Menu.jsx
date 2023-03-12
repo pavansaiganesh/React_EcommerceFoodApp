@@ -10,8 +10,8 @@ const Menu = ({pizzas}) => {
     <div className={css.container}>
         <div className={css.heading}>
             <span>Our Menu</span>
-            <span>Menu That Always</span>
-            <span>Maku You Fall In Love</span>
+            <span>Savor our carefully</span>
+            <span>crafted menu options.</span>
         </div>
 
         <div className={css.menu}>
