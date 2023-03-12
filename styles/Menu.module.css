@@ -13,10 +13,10 @@
 .heading>:nth-child(1){
     color: var(--themeRed);
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .heading>:nth-child(2),.heading>:nth-child(3){
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .menu{
