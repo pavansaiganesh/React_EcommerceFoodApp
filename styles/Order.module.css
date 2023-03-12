@@ -67,11 +67,9 @@
         flex-direction: column;
         gap:4rem
     }
-   
-    .details>div{ 
-    display : flex; 
-    justify-content : space-around;
-    gap:2rem
-} 
+   .details{
+        width:80%;
+        font-size: medium;
+    } 
 
 }
