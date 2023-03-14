@@ -102,3 +102,14 @@
   justify-content: space-between;
   font-weight: bold;
 }
+
+@media screen and (max-width: 450px) {
+  .heroText,.miniText{
+    font-size: small;
+  }
+  .left{
+    gap:1rem;
+  }
+  
+
+}
